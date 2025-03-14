@@ -47,7 +47,7 @@ async def main(message):
             # await cl.Message(content=summary).send()
             
             # Send a loading message while generating the travel plan
-            loading_msg = cl.Message(content="hanks for providing your details. Generating your travel plan, please wait... ⏳")
+            loading_msg = cl.Message(content="Thanks for providing your details. Generating your travel plan, please wait... ⏳")
             await loading_msg.send()
             
             # Call the create_travel_plan function with the collected details.
